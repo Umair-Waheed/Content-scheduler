@@ -2,21 +2,25 @@
 
 A full-stack Content Scheduler application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) and JWT-based authentication.
 
-- Registered users can create, schedule, edit, and delete their own posts.
-
-- Styled with Tailwind CSS.
-
 ## Features
 
-- User Authentication: Register, Login, Logout (JWT-based)
+- User Authentication: Register, Login, Logout (JWT-based) and hash password using bcrypt.
 
-- Post Management: Create, Schedule, Read, Update, Delete (CRUD)
+- Post Management:
 
-- Protected Routes: Only owners can edit/delete their posts
+  1. Registered user Create, Schedule, Read, Update, Delete (CRUD).
+  2. Implement pagination and indexing help to improve posts reload time and            faster searching.
+  3. Used post scheduling logic. 
 
-- Frontend: React.js with Tailwind CSS
+- Protect the Routes.
 
-- Backend: Node.js, Express.js, MongoDB
+- Add Loading state and Error handling. 
+
+- Dashboard: Display totalposts, schedulepost, publishedpost, postbyplatform and     nextupcoming posts. 
+
+- Frontend: React.js, Tailwind CSS with responsive design. 
+
+- Backend: Node.js, Express.js, MongoDB.
 
 ## Setup Instructions
 
